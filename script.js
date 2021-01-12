@@ -30,8 +30,6 @@ function generatePassword() {
   var passwordLength = parseInt(length);
   if (Number.isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
     alert("Invalid password length, please try again.");
-    //Temporary way to restart inputs if invalid password length selected
-    return;
   } else {
     var lowerCase = window.confirm("Would you like to use lowercase characters?")
     if (lowerCase) {
