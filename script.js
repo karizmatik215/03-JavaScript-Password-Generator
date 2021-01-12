@@ -58,4 +58,3 @@ function generatePassword() {
     return password;
   }
 }
-console.log(generatePassword());
